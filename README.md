@@ -1,5 +1,5 @@
 # mindebosu
-mindebosu (minimalistic debian osu) is a small bash script for installing osu! on debian(-like) distributions.
+mindebosu (minimalistic debian osu) is a small bash script for easy installing osu! on debian(-like) distributions.
 
 # How does mindebosu work?
 osu! requires some packages to run correctly, so mindebosu installs them for you:
