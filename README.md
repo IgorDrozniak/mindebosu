@@ -19,4 +19,4 @@ mindebosu is published under the GNU GENERAL PUBLIC LICENSE, check [LICENSE](htt
 mindebosu installs only the most important things for osu! to work. This script will not provide a low-latency audio configuration. For a guide for low-latency osu! on Linux see [Francesco149's osu! low-latency guide.](https://gist.github.com/Francesco149/a2f796683a4e5195458f4bb171d88eb0)
 
 # TODO
-Low-latency configuration (originally the script was to have only 10 lines of code and install only basic things)
+- [ ] Low-latency configuration (originally the script was to have only 10 lines of code and install only basic things)
