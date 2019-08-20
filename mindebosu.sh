@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "mindebosu (minimalistic debian osu) \nMinimalistic osu! installer script for Debian(-like) linux distributions. \nScript shared under GNU GPL license. (more at: https://github.com/dzejqub/mindebosu/LICENSE) \n\n"
 sudo apt-get -t install wine winetricks  # Install wine and winetricks via apt.
 winetricks settings fontsmooth=rgb # Fix wonky font
