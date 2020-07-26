@@ -4,7 +4,7 @@ mindebosu (minimalistic debian osu) is a small bash script for easy installing o
 # How does mindebosu work?
 osu! requires some packages to run correctly, so mindebosu installs them for you:
 - [Wine](https://en.wikipedia.org/wiki/Wine_(software)) - Windows API implementation for X11.
-- [Winetricks](https://github.com/Winetricks/winetricks)) - Useful scripts for installing some Windows components required for osu! to run correctly under Wine.
+- [Winetricks](https://github.com/Winetricks/winetricks) - Useful scripts for installing some Windows components required for osu! to run correctly under Wine.
 - [NET Framework](https://en.wikipedia.org/wiki/.NET_Framework) - Runtime for programs written in Microsoft programming languages.
 - [cjkfonts](https://en.wikipedia.org/wiki/List_of_CJK_fonts) - **C**hinese, **J**apanese, **K**orean Fonts.
 - [GDI+](https://en.wikipedia.org/wiki/Graphics_Device_Interface) - Microsoft API used by Windows for rendering applications.
