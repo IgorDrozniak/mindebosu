@@ -22,7 +22,5 @@ if ! [ -x $(command -v wine)  ] || ! [ -x $(command -v winetricks) ]; then
 	sleep 1s
 	sudo apt install -y wine winetricks > 2&>1
 	sleep 1s
-	install_osu
-else
-	install_osu
 fi
+install_osu
