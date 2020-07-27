@@ -15,6 +15,18 @@ install_osu() {
 	exit 0
 }
 
+make_desktop(){
+	printf "\e[1;31m[mindebosu] Making Shortcut"
+	echo "[Desktop Entry]" >> osu.desktop
+	echo "Name=osu!" >> osu.desktop
+	echo "Comment=Click the circles" >> osu.desktop
+	echo "Path=/usr/bin/wine ${HOME}/.wine/drive_c/users/$USER/Local\ Settings/Application\ Data/osu!/osu\!.exe" >> osu.desktop
+	echo "Icon=${HOME}/.wine/drive_c/users/$USER/Local\ Settings/Application\ Data/osu\!/osu.png" >> osu.desktop
+	echo "Terminal=false" >> osu.desktop
+	echo "Categories=Games" >> osu.desktop
+	sudo mv osu.desktop /usr/share/applications
+}
+
 printf "\e[1;31m[mindebosu]\e[0m This script will install osu! on your debian derivative.\n"
 sleep 1s
 if ! [ -x $(command -v wine)  ] || ! [ -x $(command -v winetricks) ]; then
@@ -24,3 +36,4 @@ if ! [ -x $(command -v wine)  ] || ! [ -x $(command -v winetricks) ]; then
 	sleep 1s
 fi
 install_osu
+make_desktop
