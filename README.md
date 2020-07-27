@@ -19,9 +19,8 @@ mindebosu installs only the most important things for osu! to work. This script 
 
 # TODO
 - [x] Low-latency configuration
-- [ ] Shortcut to osu!
+- [x] Shortcut to osu!
 - [ ] More Distributions Support.
-- [ ] Multi-language
 
 # Download
 - Clone -> Download ZIP
